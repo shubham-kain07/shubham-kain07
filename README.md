@@ -1,89 +1,65 @@
 # Hi, I'm Shubham 👋
 
-I'm a Computer Science & Technology diploma student who enjoys building software systems that solve practical problems.
+I'm a Computer Science & Technology diploma student interested in Software Engineering and Artificial Intelligence.
 
-I don't just like writing code—I enjoy understanding how a system should behave long before writing the first line. Most of my projects begin with questions like:
+What excites me most about software isn't learning another framework—it's understanding how real systems should work. I enjoy taking apart workflows, identifying weaknesses, and redesigning them into something simpler, more secure, and easier to maintain.
 
-- What problem actually needs to be solved?
-- What are the edge cases?
-- What happens when something fails?
-- How can the system scale without becoming complicated?
+One example is **SecureAttend**, where I questioned the reliability of traditional RFID attendance systems. Instead of accepting that anyone with another student's RFID card could mark attendance, I designed a workflow combining RFID authentication with Google Authenticator (TOTP), role-based access control, reusable RFID asset management, and distributed IoT attendance terminals connected to a centralized backend.
 
-That curiosity naturally led me toward software engineering, and it's also why I'm working toward Artificial Intelligence and Machine Learning. Before teaching machines to solve problems, I want to become good at designing systems that solve problems for people.
+The same mindset shaped my other projects. Rather than building isolated features, I prefer thinking about complete systems—how users interact with them, how data flows through them, what happens when something fails, and how the software can continue evolving over time.
 
 ---
 
-## What I'm currently focused on
+## Technologies I've worked with
 
-- Software Engineering
-- Backend Development
-- Artificial Intelligence & Machine Learning
-- System Design
+### Languages
+- Python
+- JavaScript
+- Java
+- C
+
+### Frontend
+- React
+- HTML
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+
+### Databases
+- MongoDB
+- SQLite
+
+### Tools & Platforms
+- Git
+- GitHub
 - Linux
+- Arduino / IoT
 
 ---
 
 ## Featured Projects
 
 ### 🔐 SecureAttend
-An IoT attendance platform combining RFID authentication with Google Authenticator (TOTP) verification to prevent proxy attendance. Designed with role-based access control, reusable RFID inventory management, and distributed attendance terminals.
+Distributed IoT attendance platform featuring RFID authentication, Google Authenticator (TOTP), role-based access control, reusable RFID inventory management, and centralized attendance processing.
 
 ### 💰 Expense Pro
-A full-stack expense management application built entirely from scratch. Designed to explore real-world backend architecture, authentication, and complete application development.
+Full-stack expense management application designed and developed entirely from scratch to explore complete application architecture, authentication, and backend design.
 
 ### 🏥 Smart Hospital
-A hospital management platform focused on organizing healthcare workflows through clean backend architecture and modular design.
+Healthcare management platform built with a modular backend architecture focused on maintainability and organized services.
 
 ### 🚑 Ambulance Booking
-A web-based ambulance booking system built to simplify emergency transportation management.
+Web-based ambulance booking platform designed to simplify emergency transportation workflows.
 
 ---
 
-## Technologies I enjoy working with
+## Currently Learning
 
-**Languages**
-
-- Python
-- JavaScript
-- Java
-- C
-
-**Frontend**
-
-- React
-- HTML
-- CSS
-
-**Backend**
-
-- Node.js
-- Express
-- REST APIs
-
-**Databases**
-
-- MongoDB
-- SQLite
-
-**Other**
-
-- Git
-- Linux
-- Arduino / IoT
+I'm currently strengthening my software engineering fundamentals while preparing to transition into Artificial Intelligence and Machine Learning. My focus is on building a strong foundation in system design, backend engineering, and problem solving before moving deeper into AI.
 
 ---
 
-## What I'm learning
-
-I'm currently preparing for a transition into AI and Machine Learning while continuing to strengthen my software engineering fundamentals.
-
-My current goal isn't to collect frameworks or certificates—it's to become better at designing reliable software, writing cleaner code, and understanding why systems are built the way they are.
-
----
-
-## Philosophy
-
-> "Good software isn't measured by how many technologies it uses.
-> It's measured by how well it solves a real problem."
-
-Thanks for visiting my profile.
+> *"I enjoy building software that continues to make sense long after the first version is finished."*

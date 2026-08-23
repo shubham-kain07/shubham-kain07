@@ -1,16 +1,14 @@
 # Hi, I'm Shubham 👋
 
-I'm a Computer Science & Technology diploma student interested in Software Engineering and Artificial Intelligence.
+I'm a Computer Science & Technology diploma student interested in **Software Engineering, Backend Development, and Artificial Intelligence**.
 
-What excites me most about software isn't learning another framework—it's understanding how real systems should work. I enjoy taking apart workflows, identifying weaknesses, and redesigning them into something simpler, more secure, and easier to maintain.
+I enjoy understanding how software systems work as a whole—not just building individual features. I like breaking down workflows, identifying weaknesses, and designing systems that are easier to maintain, extend, and reason about.
 
-One example is **SecureAttend**, where I questioned the reliability of traditional RFID attendance systems. Instead of accepting that anyone with another student's RFID card could mark attendance, I designed a workflow combining RFID authentication with Google Authenticator (TOTP), role-based access control, reusable RFID asset management, and distributed IoT attendance terminals connected to a centralized backend.
-
-The same mindset shaped my other projects. Rather than building isolated features, I prefer thinking about complete systems—how users interact with them, how data flows through them, what happens when something fails, and how the software can continue evolving over time.
+My projects usually sit at the intersection of **backend software, system design, authentication, and hardware/IoT integration**.
 
 ---
 
-## Technologies I've worked with
+## 🛠️ Technologies I've Worked With
 
 ### Languages
 - Python
@@ -26,6 +24,7 @@ The same mindset shaped my other projects. Rather than building isolated feature
 ### Backend
 - Node.js
 - Express.js
+- FastAPI
 - REST APIs
 
 ### Databases
@@ -33,33 +32,100 @@ The same mindset shaped my other projects. Rather than building isolated feature
 - SQLite
 
 ### Tools & Platforms
-- Git
-- GitHub
+- Git & GitHub
 - Linux
+- Docker
 - Arduino / IoT
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### 🔐 SecureAttend
-Distributed IoT attendance platform featuring RFID authentication, Google Authenticator (TOTP), role-based access control, reusable RFID inventory management, and centralized attendance processing.
+### 🔐 [SecureAttend](https://github.com/shubham-kain07/SecureAttend)
 
-### 💰 Expense Pro
-Full-stack expense management application designed and developed entirely from scratch to explore complete application architecture, authentication, and backend design.
+A secure attendance management platform designed around the weaknesses of traditional RFID attendance systems.
 
-### 🏥 Smart Hospital
-Healthcare management platform built with a modular backend architecture focused on maintainability and organized services.
+**Highlights:**
+- RFID-based student identification
+- TOTP / Google Authenticator verification
+- Role-based access control
+- Centralized attendance processing
+- Web-based attendance workflows
+- Arduino-based IoT attendance terminal
 
-### 🚑 Ambulance Booking
-Web-based ambulance booking platform designed to simplify emergency transportation workflows.
-
----
-
-## Currently Learning
-
-I'm currently strengthening my software engineering fundamentals while preparing to transition into Artificial Intelligence and Machine Learning. My focus is on building a strong foundation in system design, backend engineering, and problem solving before moving deeper into AI.
+The project is also evolving toward an **ESP32-based network of physical attendance nodes** and a larger **College Management System** currently under development.
 
 ---
 
-> *"I enjoy building software that continues to make sense long after the first version is finished."*
+### 💰 [ExpensePro](https://github.com/shubham-kain07/ExpensePro)
+
+A full-stack personal expense management application built to explore complete application architecture and backend engineering.
+
+**Highlights:**
+- React + Vite frontend
+- FastAPI REST backend
+- JWT authentication
+- bcrypt password hashing
+- SQLAlchemy ORM
+- User-isolated expense management
+- Income tracking
+- Financial data visualization
+- Docker / Docker Compose
+
+---
+
+## 🏫 Currently Building
+
+### College Management System
+
+I'm currently developing a larger college management platform that expands beyond attendance into centralized institutional workflows.
+
+The system is being designed around concepts such as:
+
+- Courses and programs
+- Departments
+- Academic years
+- Subjects
+- Students and teachers
+- Attendance
+- Administrative workflows
+- Role-based access control
+
+The goal is to build the system as an extensible platform rather than a collection of disconnected features.
+
+---
+
+## 📚 Currently Learning
+
+I'm strengthening my **software engineering fundamentals** while preparing to move deeper into **Artificial Intelligence and Machine Learning**.
+
+My current focus is on:
+
+- Backend engineering
+- System design
+- Database design
+- Authentication & security
+- API architecture
+- Problem solving
+- Building maintainable software
+
+I want to understand the engineering foundations behind AI systems before specializing deeply in AI/ML.
+
+---
+
+## 💡 How I Like to Build
+
+I don't want to just make software that works once.
+
+I care about understanding:
+
+```text
+How users interact with the system
+            ↓
+How data moves through it
+            ↓
+How different components communicate
+            ↓
+What happens when something fails
+            ↓
+How the system can evolve
